@@ -1,0 +1,108 @@
+:root {
+    background-color: rgb(216, 230, 248);
+}
+
+th {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+body {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+}
+
+.upper-container {
+    width: 100%;
+}
+
+.image {
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+}
+
+.lower-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+h2 {
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    font-size: 16px;
+}
+
+.titanic-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.left-container {
+    flex: 1 1 auto;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+}
+.right-container {
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+}
+
+.data_result {
+    display: block;
+    width: 600px;
+    height: 500px;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.data_original {
+    display: block;
+    width: 600px;
+    height: 500px;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.overrall_result {
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.plot1 {
+    justify-content: center;
+    padding: 5px;
+    width: 600px;
+    height: auto;
+}
