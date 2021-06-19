@@ -9,4 +9,4 @@ After training, the algorithm tries to predict whether the 30%-sized testset sur
 A HTML page presents the Table 1 containing the original data provided by Kaggle and Table 2 containing the treated 30% test set with the results provided from the original data and the results predicted by the model. Figure 1 presents the original data together with the predicted values in matplotlib fashion.
 
 ## HTML page containing the results:
-LINK: .
+LINK: https://leoalmdiniz.github.io/caseTitanic/.
